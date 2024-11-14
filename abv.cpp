@@ -89,7 +89,7 @@ int main(){
                 cout << "Ничья!" << endl;
                 game_over = true;
             } else {
-                current_player = (current_player == one) ? zero : one;
+                current_player = (current_player == one) ? zero : one.;
             }
         }
     }
